@@ -39,15 +39,3 @@ ScrollReveal().reveal(".service__card", {
   interval: 500,
 });
 
-// price container
-ScrollReveal().reveal(".price__card", {
-  ...scrollRevealOptions,
-  interval: 500,
-});
-
-const swiper = new Swiper(".swiper", {
-  loop: true,
-  pagination: {
-    el: ".swiper-pagination",
-  },
-});
